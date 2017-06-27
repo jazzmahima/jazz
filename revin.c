@@ -1,9 +1,8 @@
 #include<stdio.h>
 #include<conio.h>
-void main()
+int main()
 {
    int a,b,i,j,k;
-   clrscr();
    printf("Enter a integer\t");
    scanf("%d",a);
    printf("The original integer is %d",a);
@@ -17,5 +16,5 @@ void main()
       k--;
    }
    printf("The reverse integer is %d",b);
-   getch();
+   return 0;
 }
